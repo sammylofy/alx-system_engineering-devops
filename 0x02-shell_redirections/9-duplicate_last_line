@@ -1,2 +1,2 @@
 #!/bin/bash
-lastline=$(tail -n 1 iacta) echo "$lastline" >> iacta
+filename="$1" lastline=$(tail -n 1 "$filename") echo "$lastline" >> "$filename">>iacta
